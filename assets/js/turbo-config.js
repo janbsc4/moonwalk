@@ -7,7 +7,7 @@ let goatCounterLoadListenerAttached = false;
 function updateMetaThemeColor(theme) {
   const metaTag = document.querySelector('meta[name="theme-color"]');
   // Keep these colors synchronized with the palette tokens in site.css.
-  const color = theme === 'dark' ? '#140F0E' : '#EFA58F';
+  const color = theme === 'dark' ? '#191612' : '#F2A17D';
 
   if (metaTag) {
     metaTag.setAttribute('content', color);
@@ -174,11 +174,3 @@ function initializePage() {
 
 document.addEventListener('turbo:load', initializePage);
 initializePage();
-
-document.addEventListener('turbo:before-render', () => {
-  document.body.classList.add('content-changing');
-});
-
-document.addEventListener('turbo:render', () => {
-  document.body.classList.remove('content-changing');
-});

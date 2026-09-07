@@ -2,7 +2,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="theme-color" content="#EFA58F">
+  <meta name="theme-color" content="#F2A17D">
   {% assign document_title = page.title | default: site.title | remove: '&#9733;' | remove: '&#x2708;' | remove: '★' | remove: '✈' | strip %}
   {% assign document_description = page.description | default: site.description | strip_html | normalize_whitespace | strip %}
   {% assign canonical_url = page.url | absolute_url %}
@@ -30,13 +30,12 @@
       document.documentElement.setAttribute('data-theme', resolvedTheme);
       document.querySelector('meta[name="theme-color"]').setAttribute(
         'content',
-        resolvedTheme === 'dark' ? '#140F0E' : '#EFA58F'
+        resolvedTheme === 'dark' ? '#191612' : '#F2A17D'
       );
     })();
   </script>
 
-  <!-- Preload primary variable fonts -->
-  <link rel="preload" href="{{ '/assets/fonts/Newsreader/newsreader-latin-ext-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <!-- Preload the self-hosted interface font; editorial type uses local fonts. -->
   <link rel="preload" href="{{ '/assets/fonts/Inter/inter-latin-ext-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 
   <link rel="canonical" href="{{ canonical_url | escape }}">
@@ -119,7 +118,6 @@
   <!-- Turbo Drive -->
   <script src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@8.0.23/dist/turbo.es2017-umd.min.js" integrity="sha384-5I0KXBA3lsT+2m9ls4kWorLwXbFqdQXAfPfVbhLj/lxCq0zdcvpeCwr7xwCW5jqx" crossorigin="anonymous"></script>
   <script src="{{ '/assets/js/turbo-config.js' | relative_url }}" defer></script>
-  <script src="{{ '/assets/js/motion.js' | relative_url }}" defer></script>
 
   <!-- GoatCounter page views are counted from turbo:load in turbo-config.js. -->
   <script
