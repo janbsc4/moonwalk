@@ -10,7 +10,7 @@ Professionally, I like building and improving systems and teams. That has been t
 
 At [Credera](https://www.credera.com/de-de), I managed international accounts for Volkswagen Group. Much of the job involved translating big strategic ideas into things that could survive contact with a sprint board and the legal department. I also really enjoyed [leading a team and helping my teammates develop]({{ '/leadership-bartosz-przytula' | relative_url }}).
 
-These days, I work as a marketing engineer at [Service Club](https://serviceclub.com), helping shape and execute its go-to-market approach for new markets. I build the marketing systems behind that expansion and use data, automation, and AI-assisted development to turn ideas into working tools and workflows.
+These days, I work as a GTM marketing engineer at [Service Club](https://serviceclub.com), helping shape and execute its go-to-market approach for new markets. I build the marketing systems behind that expansion and use data, automation, and AI-assisted development to turn ideas into working tools and workflows.
 
 [This description of the marketing engineer role](https://www.usegrowthos.com/blog/what-is-a-marketing-engineer-role) is close to how I think about the work. It sits between marketing and engineering: understand the commercial problem, then build what the team needs. I like that it takes me from strategy into implementation and lets me keep improving both the system and the team around it.
 
@@ -25,7 +25,7 @@ These days, I work as a marketing engineer at [Service Club](https://serviceclub
 
 ## Experience
 
-### Marketing Engineer, [Service Club](https://serviceclub.com)
+### GTM Marketing Engineer, [Service Club](https://serviceclub.com)
 Jan 2026 - Present
 - Helping shape and execute go-to-market strategy for new markets, including Germany
 - Building the marketing systems, automations, and channel mix needed to support expansion
